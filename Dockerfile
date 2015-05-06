@@ -9,6 +9,7 @@ RUN apt-get update -y \
 	build-essential \
     gcc \
     make \
+	curl \
     tar \
 &&  apt-get clean all
 
