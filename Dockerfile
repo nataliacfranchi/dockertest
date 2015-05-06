@@ -1,5 +1,5 @@
 # Pull base image.
-FROM dockerfile/ubuntu
+FROM ubuntu:14.04
 
 # Install GhostScript
 ENV GHOSTSCRIPT_VERSION 9.02
